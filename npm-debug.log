@@ -1,0 +1,147 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish', './' ]
+2 info using npm@1.2.30
+3 info using node@v0.8.26
+4 verbose publish [ './' ]
+5 verbose read json /home/shackbarth/git/xtuple-morpheus/package.json
+6 verbose cache add [ './', null ]
+7 verbose cache add name=undefined spec="./" args=["./",null]
+8 verbose parsed url { pathname: './', path: './', href: './' }
+9 silly lockFile 0ee6c175- ./
+10 verbose lock ./ /home/shackbarth/.npm/0ee6c175-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/tmp.tgz',
+12 verbose tar pack   './' ]
+13 verbose tarball /home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/tmp.tgz
+14 verbose folder ./
+15 info prepublish xtuple-morpheus@0.0.1
+16 silly lockFile 04cb2bca-tar tar://./
+17 verbose lock tar://./ /home/shackbarth/.npm/04cb2bca-tar.lock
+18 silly lockFile e7330e9d-630-0-011993378633633256-tmp-tgz tar:///home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/tmp.tgz
+19 verbose lock tar:///home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/tmp.tgz /home/shackbarth/.npm/e7330e9d-630-0-011993378633633256-tmp-tgz.lock
+20 silly lockFile 04cb2bca-tar tar://./
+21 silly lockFile 04cb2bca-tar tar://./
+22 silly lockFile e7330e9d-630-0-011993378633633256-tmp-tgz tar:///home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/tmp.tgz
+23 silly lockFile e7330e9d-630-0-011993378633633256-tmp-tgz tar:///home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/tmp.tgz
+24 verbose tar unpack /home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/tmp.tgz
+25 silly lockFile e1ff7754-630-0-011993378633633256-package tar:///home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/package
+26 verbose lock tar:///home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/package /home/shackbarth/.npm/e1ff7754-630-0-011993378633633256-package.lock
+27 silly lockFile e7330e9d-630-0-011993378633633256-tmp-tgz tar:///home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/tmp.tgz
+28 verbose lock tar:///home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/tmp.tgz /home/shackbarth/.npm/e7330e9d-630-0-011993378633633256-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+32 silly gunzTarPerm extractEntry .npmignore
+33 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+34 silly gunzTarPerm extractEntry README.md
+35 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+36 silly gunzTarPerm extractEntry LICENSE
+37 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+38 silly gunzTarPerm extractEntry database/source/manifest.js
+39 silly gunzTarPerm modified mode [ 'database/source/manifest.js', 436, 420 ]
+40 silly gunzTarPerm extractEntry client/package.js
+41 silly gunzTarPerm modified mode [ 'client/package.js', 436, 420 ]
+42 silly gunzTarPerm extractEntry client/postbooks.js
+43 silly gunzTarPerm modified mode [ 'client/postbooks.js', 436, 420 ]
+44 silly gunzTarPerm extractEntry client/core.js
+45 silly gunzTarPerm modified mode [ 'client/core.js', 436, 420 ]
+46 silly gunzTarPerm extractEntry client/page.js
+47 silly gunzTarPerm modified mode [ 'client/page.js', 436, 420 ]
+48 silly gunzTarPerm extractEntry client/assets/explain.html
+49 silly gunzTarPerm modified mode [ 'client/assets/explain.html', 436, 420 ]
+50 silly gunzTarPerm extractEntry client/en/strings.js
+51 silly gunzTarPerm modified mode [ 'client/en/strings.js', 436, 420 ]
+52 silly gunzTarPerm extractEntry client/lib/morpheus.min.js
+53 silly gunzTarPerm modified mode [ 'client/lib/morpheus.min.js', 436, 420 ]
+54 verbose read json /home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/package/package.json
+55 silly lockFile e1ff7754-630-0-011993378633633256-package tar:///home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/package
+56 silly lockFile e1ff7754-630-0-011993378633633256-package tar:///home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/package
+57 silly lockFile e7330e9d-630-0-011993378633633256-tmp-tgz tar:///home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/tmp.tgz
+58 silly lockFile e7330e9d-630-0-011993378633633256-tmp-tgz tar:///home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/tmp.tgz
+59 verbose from cache /home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/package/package.json
+60 verbose tar pack [ '/home/shackbarth/.npm/xtuple-morpheus/0.0.1/package.tgz',
+60 verbose tar pack   '/home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/package' ]
+61 verbose tarball /home/shackbarth/.npm/xtuple-morpheus/0.0.1/package.tgz
+62 verbose folder /home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/package
+63 silly lockFile e1ff7754-630-0-011993378633633256-package tar:///home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/package
+64 verbose lock tar:///home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/package /home/shackbarth/.npm/e1ff7754-630-0-011993378633633256-package.lock
+65 silly lockFile 53529b54-tuple-morpheus-0-0-1-package-tgz tar:///home/shackbarth/.npm/xtuple-morpheus/0.0.1/package.tgz
+66 verbose lock tar:///home/shackbarth/.npm/xtuple-morpheus/0.0.1/package.tgz /home/shackbarth/.npm/53529b54-tuple-morpheus-0-0-1-package-tgz.lock
+67 silly lockFile e1ff7754-630-0-011993378633633256-package tar:///home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/package
+68 silly lockFile e1ff7754-630-0-011993378633633256-package tar:///home/shackbarth/tmp/npm-7441/1405697281630-0.011993378633633256/package
+69 silly lockFile 53529b54-tuple-morpheus-0-0-1-package-tgz tar:///home/shackbarth/.npm/xtuple-morpheus/0.0.1/package.tgz
+70 silly lockFile 53529b54-tuple-morpheus-0-0-1-package-tgz tar:///home/shackbarth/.npm/xtuple-morpheus/0.0.1/package.tgz
+71 silly lockFile adccba94-pm-xtuple-morpheus-0-0-1-package /home/shackbarth/.npm/xtuple-morpheus/0.0.1/package
+72 verbose lock /home/shackbarth/.npm/xtuple-morpheus/0.0.1/package /home/shackbarth/.npm/adccba94-pm-xtuple-morpheus-0-0-1-package.lock
+73 silly lockFile adccba94-pm-xtuple-morpheus-0-0-1-package /home/shackbarth/.npm/xtuple-morpheus/0.0.1/package
+74 silly lockFile adccba94-pm-xtuple-morpheus-0-0-1-package /home/shackbarth/.npm/xtuple-morpheus/0.0.1/package
+75 verbose tar unpack /home/shackbarth/.npm/xtuple-morpheus/0.0.1/package.tgz
+76 silly lockFile 8d75cdf0-pm-xtuple-morpheus-0-0-1-package tar:///home/shackbarth/.npm/xtuple-morpheus/0.0.1/package
+77 verbose lock tar:///home/shackbarth/.npm/xtuple-morpheus/0.0.1/package /home/shackbarth/.npm/8d75cdf0-pm-xtuple-morpheus-0-0-1-package.lock
+78 silly lockFile 53529b54-tuple-morpheus-0-0-1-package-tgz tar:///home/shackbarth/.npm/xtuple-morpheus/0.0.1/package.tgz
+79 verbose lock tar:///home/shackbarth/.npm/xtuple-morpheus/0.0.1/package.tgz /home/shackbarth/.npm/53529b54-tuple-morpheus-0-0-1-package-tgz.lock
+80 silly gunzTarPerm modes [ '755', '644' ]
+81 silly gunzTarPerm extractEntry package.json
+82 silly gunzTarPerm extractEntry .npmignore
+83 silly gunzTarPerm extractEntry README.md
+84 silly gunzTarPerm extractEntry LICENSE
+85 silly gunzTarPerm extractEntry database/source/manifest.js
+86 silly gunzTarPerm extractEntry client/package.js
+87 silly gunzTarPerm extractEntry client/postbooks.js
+88 silly gunzTarPerm extractEntry client/core.js
+89 silly gunzTarPerm extractEntry client/page.js
+90 silly gunzTarPerm extractEntry client/assets/explain.html
+91 silly gunzTarPerm extractEntry client/en/strings.js
+92 silly gunzTarPerm extractEntry client/lib/morpheus.min.js
+93 verbose read json /home/shackbarth/.npm/xtuple-morpheus/0.0.1/package/package.json
+94 silly lockFile 8d75cdf0-pm-xtuple-morpheus-0-0-1-package tar:///home/shackbarth/.npm/xtuple-morpheus/0.0.1/package
+95 silly lockFile 8d75cdf0-pm-xtuple-morpheus-0-0-1-package tar:///home/shackbarth/.npm/xtuple-morpheus/0.0.1/package
+96 silly lockFile 53529b54-tuple-morpheus-0-0-1-package-tgz tar:///home/shackbarth/.npm/xtuple-morpheus/0.0.1/package.tgz
+97 silly lockFile 53529b54-tuple-morpheus-0-0-1-package-tgz tar:///home/shackbarth/.npm/xtuple-morpheus/0.0.1/package.tgz
+98 verbose from cache /home/shackbarth/.npm/xtuple-morpheus/0.0.1/package/package.json
+99 verbose chmod /home/shackbarth/.npm/xtuple-morpheus/0.0.1/package.tgz 644
+100 verbose chown /home/shackbarth/.npm/xtuple-morpheus/0.0.1/package.tgz [ 1000, 1000 ]
+101 silly lockFile 0ee6c175- ./
+102 silly lockFile 0ee6c175- ./
+103 silly publish { author: { name: 'Steve Hackbarth', email: 'shackbarth@xtuple.com' },
+103 silly publish   name: 'xtuple-morpheus',
+103 silly publish   description: 'xTuple Morpheus integration',
+103 silly publish   version: '0.0.1',
+103 silly publish   dependencies: {},
+103 silly publish   peerDependencies: { xtuple: '*' },
+103 silly publish   repository:
+103 silly publish    { type: 'git',
+103 silly publish      url: 'http://github.com/shackbarth/xtuple-morpheus' },
+103 silly publish   readme: 'xtuple-morpheus\n===============\n\nExample integration of another javascript project into xTuple\n',
+103 silly publish   readmeFilename: 'README.md',
+103 silly publish   bugs: { url: 'https://github.com/shackbarth/xtuple-morpheus/issues' },
+103 silly publish   _id: 'xtuple-morpheus@0.0.1',
+103 silly publish   dist: { shasum: '1a1bac0524c7bfebd7cc9c9e779d117bac3ba497' },
+103 silly publish   _from: './' }
+104 verbose url raw xtuple-morpheus
+105 verbose url resolving [ 'https://registry.npmjs.org/', './xtuple-morpheus' ]
+106 verbose url resolved https://registry.npmjs.org/xtuple-morpheus
+107 info trying registry request attempt 1 at 11:28:01
+108 http PUT https://registry.npmjs.org/xtuple-morpheus
+109 http 403 https://registry.npmjs.org/xtuple-morpheus
+110 info trying registry request attempt 1 at 11:28:02
+111 http PUT https://registry.npmjs.org/xtuple-morpheus
+112 http 201 https://registry.npmjs.org/xtuple-morpheus
+113 verbose url raw xtuple-morpheus
+114 verbose url resolving [ 'https://registry.npmjs.org/', './xtuple-morpheus' ]
+115 verbose url resolved https://registry.npmjs.org/xtuple-morpheus
+116 info trying registry request attempt 1 at 11:28:03
+117 http GET https://registry.npmjs.org/xtuple-morpheus
+118 http 404 https://registry.npmjs.org/xtuple-morpheus
+119 error 404 'xtuple-morpheus' is not in the npm registry.
+119 error 404 You should bug the author to publish it
+119 error 404
+119 error 404 Note that you can also install from a
+119 error 404 tarball, folder, or http url, or git url.
+120 error System Linux 3.13.0-32-generic
+121 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "./"
+122 error cwd /home/shackbarth/git/xtuple-morpheus
+123 error node -v v0.8.26
+124 error npm -v 1.2.30
+125 error code E404
+126 verbose exit [ 1, true ]
