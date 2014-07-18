@@ -13,4 +13,9 @@ The point of this extension is to show two very simple use cases.
 - A javascript library is imported, and the xTuple app hands over a div to that other library
 
 This particular example is not going to win any design awards! It's meant as a starter template
-for you to build your own work. Happy xTupling!
+for you to build your own work. 
+  
+To install this extension (requires xTuple webapp version >= 4.6), go to `Setup`->`Configure`->`Database`,
+type `xtuple-morpheus` into the `Install Extension` panel, and click the checkbox.
+  
+Happy xTupling!
