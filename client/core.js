@@ -8,7 +8,7 @@ white:true*/
 
   XT.extensions.xtuple_morpheus = {
     setVersion: function () {
-      XT.setVersion("0.0.1", "xtuple-morpheus");
+      XT.setVersion("0.0.2", "xtuple-morpheus");
     }
   };
 
