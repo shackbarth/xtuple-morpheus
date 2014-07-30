@@ -11,10 +11,10 @@ white:true*/
     enyo.kind({
       name: "XV.MorpheusPage",
       kind: "enyo.FittableRows",
-      style: "background-color: white;",
+      classes: "morpheus-page",
       components: [
         { tag: "h2", content: "_general".loc()},
-        { name: "movingBox", style: "top: 0; left: 0; position: relative; width: 20px; height: 20px; border-radius: 4px; background: #f00; margin: 5px 0; border: 1px solid #999; -moz-border-radius: 4px; -webkit-border-radius: 4px;" },
+        { name: "movingBox", classes: "moving-box"},
         { kind: "onyx.Button", name: "movingButton", content: "_go".loc(), ontap: "buttonTap"},
         { name: "message" }
       ],

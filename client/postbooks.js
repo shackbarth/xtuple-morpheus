@@ -15,7 +15,7 @@ white:true*/
           name: "explanatoryIframe",
           label: "_explanation".loc(),
           tag: "iframe",
-          style: "background-color: white;",
+          classes: "morpheus-page",
           src: "npm/xtuple-morpheus/client/assets/explain.html"
         },
         {

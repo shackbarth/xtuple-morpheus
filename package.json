@@ -2,11 +2,11 @@
   "author": "Steve Hackbarth <shackbarth@xtuple.com>",
   "name": "xtuple-morpheus",
   "description": "xTuple Morpheus integration",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
   },
   "peerDependencies": {
-    "xtuple": "*"
+    "xtuple": "^4.6.0"
   },
   "repository": {
     "type": "git",

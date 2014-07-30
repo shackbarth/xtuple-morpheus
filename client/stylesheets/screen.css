@@ -1,0 +1,16 @@
+.morpheus-page {
+  background-color: white;
+}
+.moving-box {
+  top: 0; 
+  left: 0; 
+  position: relative; 
+  width: 20px; 
+  height: 20px; 
+  border-radius: 4px; 
+  background: #f00; 
+  margin: 5px 0; 
+  border: 1px solid #999; 
+  -moz-border-radius: 4px; 
+  -webkit-border-radius: 4px;
+}
